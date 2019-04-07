@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f8f8f8"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monitory Membantu Anda \n Mengontrol HP Anak"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_bold"
+            android:layout_centerInParent="true"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border"
+        android:paddingTop="2dp"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <Button
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_bulat"
+            android:text="Masuk"
+            android:fontFamily="@font/nunito_bold"
+            android:textStyle="bold"
+            android:onClick="masuk"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
